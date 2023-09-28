@@ -35,14 +35,14 @@ export const CardHotel = ({ hotel }) => {
           <Typography
             variant="body2"
             color="text.secondary"
-            className={styles.price}
+            className={styles.priceHotel}
           >
             Price : {hotel.price}
           </Typography>
           <Typography
             variant="body2"
             color="text.secondary"
-            className={styles.countryCityHotel}
+            className={styles.coutryCityHotel}
           >
             Country : {hotel.country}, City : {hotel.city}
           </Typography>
